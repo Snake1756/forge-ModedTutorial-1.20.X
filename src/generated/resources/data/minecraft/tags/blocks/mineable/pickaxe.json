@@ -1,0 +1,16 @@
+{
+  "values": [
+    "pbossmod:ruby_block",
+    "pbossmod:ruby_ore",
+    "pbossmod:altar_block",
+    "pbossmod:ruby_button",
+    "pbossmod:ruby_door",
+    "pbossmod:ruby_fence_gate",
+    "pbossmod:ruby_fence",
+    "pbossmod:ruby_wall",
+    "pbossmod:ruby_trapdoor",
+    "pbossmod:ruby_stairs",
+    "pbossmod:ruby_slab",
+    "pbossmod:ruby_pressure_plate"
+  ]
+}

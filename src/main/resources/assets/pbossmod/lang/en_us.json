@@ -1,0 +1,41 @@
+{
+  "item.pbossmod.ruby": "Ruby",
+  "item.pbossmod.ruby_nugget": "Rubby Nugget",
+  "item.pbossmod.metal_detector": "Metal Detector",
+  "item.pbossmod.piglin_meat": "Piglin Meat",
+  "item.pbossmod.piglin_flesh": "Piglin Flesh",
+  "item.pbossmod.piglin_axe": "Piglin Axe",
+  "item.pbossmod.ruby_sword": "Ruby Sword",
+  "item.pbossmod.ruby_axe": "Ruby Axe",
+  "item.pbossmod.ruby_pickaxe": "Ruby Pickaxe",
+  "item.pbossmod.ruby_shovel": "Ruby Shovel",
+  "item.pbossmod.ruby_hoe": "Ruby Hoe",
+  "item.pbossmod.ruby_helmet": "Ruby Helmet",
+  "item.pbossmod.ruby_chestplate": "Ruby Chestplate",
+  "item.pbossmod.ruby_leggings": "Ruby Leggings",
+  "item.pbossmod.ruby_boots": "Ruby Boots",
+  "item.pbossmod.onion_seeds": "Onion Seeds",
+  "item.pbossmod.onion": "Onion",
+  "item.pbossmod.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.pbossmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+  "creativetab.pboss_tab": "PBoss Mod",
+
+  "block.pbossmod.ruby_ore": "Ruby Ore",
+  "block.pbossmod.ruby_block": "Ruby Block",
+  "block.pbossmod.altar_block": "Altar",
+
+  "block.pbossmod.ruby_stairs": "Ruby Stairs",
+  "block.pbossmod.ruby_slab": "Ruby Slab",
+  "block.pbossmod.ruby_button": "Ruby Button",
+  "block.pbossmod.ruby_pressure_plate": "Ruby Pressure Plate",
+  "block.pbossmod.ruby_fence": "Ruby Fence",
+  "block.pbossmod.ruby_fence_gate": "Ruby Fence Gate",
+  "block.pbossmod.ruby_door": "Ruby Door",
+  "block.pbossmod.ruby_trapdoor": "Ruby Trapdoor",
+  "block.pbossmod.ruby_wall": "Ruby Wall",
+  "block.pbossmod.wild_onion": "Wild Onion",
+
+  "tooltip.pbossmod.metal_detector.tooltip": "Find Valuable Items like Iron, Diamonds or Netherite by right Clicking",
+  "tooltip.pbossmod.altar_block.tooltip": "Used for Summoning the Piglin Boss by Right Clicking with Ruby"
+}

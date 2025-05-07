@@ -1,0 +1,16 @@
+// 1.20.1	2025-04-18T20:14:40.7358538	Loot Tables
+e0de30bd52d4b98fdc20204ff2fbc5ec445aa38e data/pbossmod/loot_tables/blocks/altar_block.json
+015ee3f9c11d8a9eebac234c731d3621acb12000 data/pbossmod/loot_tables/blocks/onion_crop.json
+4b344fd7000e7cf80863115b313f78ebf7ec33ce data/pbossmod/loot_tables/blocks/potted_wild_onion.json
+b7774777e3c9cc6e29fc8d03400a054391701d11 data/pbossmod/loot_tables/blocks/ruby_block.json
+3735a75d0d33595e005b4d8b13b56551005fb9b4 data/pbossmod/loot_tables/blocks/ruby_button.json
+7020c8c157a0fca3bbff5e9af988d2c0e8b33942 data/pbossmod/loot_tables/blocks/ruby_door.json
+54972eeb4e595bdbf0d9def6902646f29c7847f3 data/pbossmod/loot_tables/blocks/ruby_fence.json
+a2f97f05914b32f9f1c05d3d11c83681a9a50663 data/pbossmod/loot_tables/blocks/ruby_fence_gate.json
+a7150e26c47bdac0138d3a53de419c0db974bb8e data/pbossmod/loot_tables/blocks/ruby_ore.json
+f1bc7e9edb7166b6a15712ce334f2ffa89c70105 data/pbossmod/loot_tables/blocks/ruby_pressure_plate.json
+e9e3743488fa76659072c7699f54343a975274cb data/pbossmod/loot_tables/blocks/ruby_slab.json
+59cd405b904eccf172d0b4fd3667b6abd285698e data/pbossmod/loot_tables/blocks/ruby_stairs.json
+72cd7f9d1432863a16ea9db617ae1cecc1a1c6b2 data/pbossmod/loot_tables/blocks/ruby_trapdoor.json
+03d4f7162031ccc61e86cd61d06b9ea79040eae2 data/pbossmod/loot_tables/blocks/ruby_wall.json
+62d22cdfb58e53493dca4e1ec8b65d578a9403b1 data/pbossmod/loot_tables/blocks/wild_onion.json

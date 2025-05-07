@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 25.0,
+  "group": "ruby_nugget",
+  "ingredient": {
+    "item": "pbossmod:ruby_ore"
+  },
+  "result": "pbossmod:ruby_nugget"
+}

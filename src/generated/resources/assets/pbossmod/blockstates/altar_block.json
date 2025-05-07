@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pbossmod:block/altar_block"
+    }
+  }
+}

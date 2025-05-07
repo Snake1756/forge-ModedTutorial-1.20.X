@@ -1,0 +1,11 @@
+// 1.20.1	2025-04-18T14:41:21.2966761	Tags for minecraft:block mod id pbossmod
+da90a2a1f75c55cacdb3fdc26284e094d2046a64 data/forge/tags/blocks/needs_netherite_tool.json
+bbcaa355312e95dc81a54ecf65e7b156627a50ba data/minecraft/tags/blocks/fences.json
+7b9ddcf27238f66ed0ef6be7b5fb02910ad84644 data/minecraft/tags/blocks/fence_gates.json
+ce1317c92df47a30463c827299da0ebdc8007cf9 data/minecraft/tags/blocks/mineable/pickaxe.json
+5d37d2f4fb0415c215cb786c1186e7cd98162215 data/minecraft/tags/blocks/needs_diamond_tool.json
+5d37d2f4fb0415c215cb786c1186e7cd98162215 data/minecraft/tags/blocks/needs_iron_tool.json
+5d37d2f4fb0415c215cb786c1186e7cd98162215 data/minecraft/tags/blocks/needs_stone_tool.json
+f67b79e45cf2f544ac549c99234c1721dfbfc1ae data/minecraft/tags/blocks/walls.json
+5004231069e69fee131c3902831d4ef1e7f396f0 data/pbossmod/tags/blocks/metal_detector_valuables.json
+a1b5f61cdb39d8ee83a1a4d939104483768a9642 data/pbossmod/tags/blocks/needs_ruby_tool.json

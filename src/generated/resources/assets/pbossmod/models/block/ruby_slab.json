@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "pbossmod:block/ruby_block",
+    "side": "pbossmod:block/ruby_block",
+    "top": "pbossmod:block/ruby_block"
+  }
+}

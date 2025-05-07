@@ -1,0 +1,46 @@
+{
+  "metal_detector_found_ore": {
+    "subtitles": "sounds.pbossmod.metal_detector_found_ore",
+    "sounds": [
+      "pbossmod:metal_detector_found_ore"
+    ]
+  },
+  "altar_block_break": {
+    "subtitle": "sounds.pbossmod.altar_block_break",
+    "sounds": [
+      "pbossmod:altar_block_break"
+    ]
+  },
+  "altar_block_step": {
+    "subtitle": "sounds.pbossmod.altar_block_step",
+    "sounds": [
+      "pbossmod:altar_block_step"
+    ]
+  },
+  "altar_block_place": {
+    "subtitle": "sounds.pbossmod.altar_block_place",
+    "sounds": [
+      "pbossmod:altar_block_place"
+    ]
+  },
+  "altar_block_hit": {
+    "subtitle": "sounds.pbossmod.altar_block_hit",
+    "sounds": [
+      "pbossmod:altar_block_hit"
+    ]
+  },
+  "altar_block_fall": {
+    "subtitle": "sounds.pbossmod.altar_block_fall",
+    "sounds": [
+      "pbossmod:altar_block_fall"
+    ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "pbossmod:bar_brawl",
+        "stream": true
+      }
+    ]
+  }
+}

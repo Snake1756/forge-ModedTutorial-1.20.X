@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "pbossmod:block/ruby_slab"
+    },
+    "type=double": {
+      "model": "pbossmod:block/ruby_block"
+    },
+    "type=top": {
+      "model": "pbossmod:block/ruby_slab_top"
+    }
+  }
+}
