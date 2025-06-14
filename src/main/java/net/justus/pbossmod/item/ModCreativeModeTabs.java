@@ -37,6 +37,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.ONION.get());
                         output.accept(ModBlocks.WILD_ONION.get());
                         output.accept(ModItems.BAR_BRAWL_MUSIC_DISC.get());
+                        output.accept(ModItems.PIGLIN_BOSS_SPAWN_EGG.get());
 
 
                         output.accept(ModBlocks.RUBY_ORE.get());

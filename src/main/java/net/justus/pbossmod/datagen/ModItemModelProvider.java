@@ -73,6 +73,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleBlockItemBlockTexture(ModBlocks.WILD_ONION);
 
+        withExistingParent(ModItems.PIGLIN_BOSS_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+
         trimmedArmorItem(ModItems.RUBY_HELMET);
         trimmedArmorItem(ModItems.RUBY_CHESTPLATE);
         trimmedArmorItem(ModItems.RUBY_LEGGINGS);

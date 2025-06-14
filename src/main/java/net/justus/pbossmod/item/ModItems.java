@@ -1,12 +1,14 @@
 package net.justus.pbossmod.item;
 
 import net.justus.pbossmod.block.ModBlocks;
+import net.justus.pbossmod.entity.ModEntities;
 import net.justus.pbossmod.item.custom.FuelItem;
 import net.justus.pbossmod.item.custom.MetalDetectorItem;
 import net.justus.pbossmod.item.custom.ModArmorItem;
 import net.justus.pbossmod.sound.ModSounds;
 import net.minecraft.world.item.*;
 import net.justus.pbossmod.ExampleMod;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -27,11 +29,15 @@ public class ModItems {
     public static final RegistryObject<Item> PIGLIN_Flesh = ITEMS.register("piglin_flesh",
             () -> new FuelItem(new Item.Properties(),1800));
     public static final RegistryObject<Item> PIGLIN_AXE = ITEMS.register("piglin_axe",
-            () -> new Item(new Item.Properties().stacksTo(1)));
+            () -> new AxeItem(ModToolTiers.RUBY, 8, -3f, new Item.Properties()));
     public static final RegistryObject<Item> ONION = ITEMS.register("onion",
             () -> new Item(new Item.Properties().food(ModFoods.ONION)));
     public static final RegistryObject<Item> BAR_BRAWL_MUSIC_DISC = ITEMS.register("bar_brawl_music_disc",
             () -> new RecordItem(6, ModSounds.BAR_BRAWL, new Item.Properties().stacksTo(1), 2440));
+
+    public static final RegistryObject<Item> PIGLIN_BOSS_SPAWN_EGG = ITEMS.register("piglin_boss_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.PIGLINBOSS, 0x7e9680, 0xc5d1c5,
+                    new Item.Properties()));
 
 
     public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword",

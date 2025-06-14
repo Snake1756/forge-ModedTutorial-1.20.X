@@ -2,9 +2,12 @@ package net.justus.pbossmod;
 
 import com.mojang.logging.LogUtils;
 import net.justus.pbossmod.block.ModBlocks;
+import net.justus.pbossmod.entity.ModEntities;
+import net.justus.pbossmod.entity.client.PiglinBossRenderer;
 import net.justus.pbossmod.item.ModCreativeModeTabs;
 import net.justus.pbossmod.item.ModItems;
 import net.justus.pbossmod.sound.ModSounds;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
@@ -36,6 +39,7 @@ public class ExampleMod {
         ModBlocks.register(modEventBus);
 
         ModSounds.register(modEventBus);
+        ModEntities.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -68,6 +72,7 @@ public class ExampleMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            EntityRenderers.register(ModEntities.PIGLINBOSS.get(), PiglinBossRenderer::new);
 
         }
     }

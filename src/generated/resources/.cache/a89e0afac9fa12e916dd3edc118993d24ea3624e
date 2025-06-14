@@ -1,8 +1,9 @@
-// 1.20.1	2025-04-18T22:39:53.1055906	Item Models: pbossmod
+// 1.20.1	2025-06-14T13:58:05.5122998	Item Models: pbossmod
 294365fcc8f06ded07195ab1c85b6b84a5d8eb7f assets/pbossmod/models/item/bar_brawl_music_disc.json
 a56463ee476c5f7b954838e6cf895422bd926bb5 assets/pbossmod/models/item/metal_detector.json
 2bce678c1b6aa5b662264267831919bb240aceda assets/pbossmod/models/item/onion.json
 6bc51874bc4e3f739a9680722047c85e2438dc93 assets/pbossmod/models/item/onion_seeds.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/pbossmod/models/item/piglin_boss_spawn_egg.json
 5f5412f648137cf9e0cf4bf0354b72c610e90ea8 assets/pbossmod/models/item/piglin_flesh.json
 da9c29ce119fc839f07c034583d75f0209f158b8 assets/pbossmod/models/item/piglin_meat.json
 d3446beafb01d299b2c73b0383a0a5ea363950b1 assets/pbossmod/models/item/ruby.json
