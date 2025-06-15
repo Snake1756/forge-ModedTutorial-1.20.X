@@ -1,4 +1,8 @@
-// 1.20.1	2025-04-18T20:29:42.382607	Recipes
+// 1.20.1	2025-06-14T20:40:27.3090107	Recipes
+bc5e7c9b1bcd7b47a3761a4c04bbb7af36f1f74e data/pbossmod/advancements/recipes/combat/ruby_boots_smithing.json
+68c7a7021a9398a63d65ded4bad9c3ede42d8d79 data/pbossmod/advancements/recipes/combat/ruby_chestplate_smithing.json
+34da5a341bb102d830f3a38da8a2b0a30a139bd6 data/pbossmod/advancements/recipes/combat/ruby_helmet_smithing.json
+978bde890d153497ae249ba91fbd47377b8c5770 data/pbossmod/advancements/recipes/combat/ruby_leggings_smithing.json
 2666d02e5102d48841aaa6416e51961f1a350e49 data/pbossmod/advancements/recipes/misc/onion_seeds.json
 0584602b58c1da46c5f1cb822f7db73c37bbe02b data/pbossmod/advancements/recipes/misc/ruby.json
 7acc8d5767284d5ad5c05cabeab0a0d62124ba03 data/pbossmod/advancements/recipes/misc/ruby_block.json
@@ -9,7 +13,11 @@ f71a94a4a770a64d4b15324986e361477d649afc data/pbossmod/advancements/recipes/misc
 a75007a2638af63dcec8ca9a2680a01f690afb3f data/pbossmod/recipes/onion_seeds.json
 0d75e4a880f672040faa3284f171632e93fcc73f data/pbossmod/recipes/ruby.json
 2e08e4aa81359e9c8f8266a524740fc01d3e1667 data/pbossmod/recipes/ruby_block.json
+37221eccf5b0e91946e803959be777e16b69c844 data/pbossmod/recipes/ruby_boots_smithing.json
+433d85ad1eded44fe257fd89bc844e2595229ef2 data/pbossmod/recipes/ruby_chestplate_smithing.json
 3d63461b95603311432903e829a648ab586b92ca data/pbossmod/recipes/ruby_from_nuggets.json
+babd337c0e717ae58fc64b9c64407d32f779f775 data/pbossmod/recipes/ruby_helmet_smithing.json
+664f6ebfdc80aaaf7042ce6324c71d81998c3093 data/pbossmod/recipes/ruby_leggings_smithing.json
 03c6b39f4e40378b1d95d50597d299a95f3fdfa7 data/pbossmod/recipes/ruby_nugget.json
 d06ae39404281c4413f5b6112cc2ef0b2125eb33 data/pbossmod/recipes/ruby_nugget_from_blasting_ruby_ore.json
 f5bf1a29e07a25cc5081dba768467b34ec166c13 data/pbossmod/recipes/ruby_nugget_from_smelting_ruby_ore.json

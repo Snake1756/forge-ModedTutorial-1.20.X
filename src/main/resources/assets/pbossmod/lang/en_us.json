@@ -37,6 +37,6 @@
   "block.pbossmod.ruby_wall": "Ruby Wall",
   "block.pbossmod.wild_onion": "Wild Onion",
 
-  "tooltip.pbossmod.metal_detector.tooltip": "Find Valuable Items like Iron, Diamonds or Netherite by right Clicking",
-  "tooltip.pbossmod.altar_block.tooltip": "Used for Summoning the Piglin Boss by Right Clicking with Ruby"
+  "tooltip.pbossmod.metal_detector.tooltip": "Find Valuable Items like Iron, Diamonds Netherite or RubyOre by right Clicking",
+  "tooltip.pbossmod.altar_block.tooltip": "Used for Summoning the Piglin Boss by Right Clicking"
 }

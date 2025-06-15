@@ -126,6 +126,10 @@ public class PiglinBossEntity extends Monster {
     protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHit) {
         super.dropCustomDeathLoot(source, looting, recentlyHit);
         this.spawnAtLocation(new ItemStack(ModItems.PIGLIN_AXE.get()));
+        int amount = 5 + this.random.nextInt(4 + looting);
+        this.spawnAtLocation(new ItemStack(ModItems.PIGLIN_MEAT.get(), amount));
+        int fleshAmount = 1 + this.random.nextInt(4 + looting);
+        this.spawnAtLocation(new ItemStack(ModItems.PIGLIN_Flesh.get(), fleshAmount));
     }
 
     public static AttributeSupplier.Builder createAttributes() {

@@ -5,6 +5,7 @@ import net.justus.pbossmod.block.ModBlocks;
 import net.justus.pbossmod.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -53,6 +54,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModItems.Ruby.get())
                 .unlockedBy(getHasName(ModItems.Ruby.get()), has(ModItems.Ruby.get()))
                 .save(pWriter);
+
+        smithingUpgrade(pWriter, Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE, Items.NETHERITE_HELMET, ModItems.Ruby.get(), ModItems.RUBY_HELMET.get());
+        smithingUpgrade(pWriter, Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE, Items.NETHERITE_CHESTPLATE, ModItems.Ruby.get(), ModItems.RUBY_CHESTPLATE.get());
+        smithingUpgrade(pWriter, Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE, Items.NETHERITE_LEGGINGS, ModItems.Ruby.get(), ModItems.RUBY_LEGGINGS.get());
+        smithingUpgrade(pWriter, Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE, Items.NETHERITE_BOOTS, ModItems.Ruby.get(), ModItems.RUBY_BOOTS.get());
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTIme, String pGroup) {
@@ -70,5 +76,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                     .group(pGroup).unlockedBy(getHasName(itemlike), has(itemlike))
                     .save(pFinishedRecipeConsumer,  ExampleMod.MOD_ID + ":" + getItemName(pResult) + pRecipeName + "_" + getItemName(itemlike));
         }
+    }
+    private void smithingUpgrade(Consumer<FinishedRecipe> writer,
+                                 ItemLike template, ItemLike base, ItemLike addition, ItemLike result) {
+        SmithingTransformRecipeBuilder.smithing(
+                        Ingredient.of(template),
+                        Ingredient.of(base),
+                        Ingredient.of(addition),
+                        RecipeCategory.COMBAT,
+                        result.asItem())
+                .unlocks("has_" + getItemName(addition), has(addition))
+                .save(writer, ExampleMod.MOD_ID + ":" + getItemName(result) + "_smithing");
     }
 }

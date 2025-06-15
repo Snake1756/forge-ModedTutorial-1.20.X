@@ -1,5 +1,8 @@
 package net.justus.pbossmod.block.custom;
 
+import net.justus.pbossmod.entity.ModEntities;
+import net.justus.pbossmod.entity.client.PiglinBoss;
+import net.justus.pbossmod.entity.custom.PiglinBossEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionHand;
@@ -27,16 +30,16 @@ public class Altar_Block extends Block {
     public InteractionResult use(BlockState pState, Level pLevel, BlockPos pPos,
                                  Player pPlayer, InteractionHand pHand, BlockHitResult pHit) {
         if (!pLevel.isClientSide) {
-            Zombie zombie = EntityType.ZOMBIE.create(pLevel);
-            if (zombie != null) {
-                zombie.moveTo(pPos.getX(), pPos.getY(), pPos.getZ(), 0, 0);
-                pLevel.addFreshEntity(zombie);
+            PiglinBossEntity piglinBoss = ModEntities.PIGLINBOSS.get().create(pLevel);
+            if (piglinBoss != null) {
+                piglinBoss.moveTo(pPos.getX() + 0.5, pPos.getY() + 1, pPos.getZ() + 0.5, 0, 0);
+                pLevel.addFreshEntity(piglinBoss);
+                pLevel.removeBlock(pPos, false);
             }
         }
 
         return InteractionResult.SUCCESS;
     }
-
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable BlockGetter pLevel, List<Component> pTooltip, TooltipFlag pFlag) {
         pTooltip.add(Component.translatable("tooltip.pbossmod.altar_block.tooltip"));
