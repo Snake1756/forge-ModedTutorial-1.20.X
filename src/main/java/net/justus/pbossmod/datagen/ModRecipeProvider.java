@@ -3,6 +3,7 @@ package net.justus.pbossmod.datagen;
 import net.justus.pbossmod.ExampleMod;
 import net.justus.pbossmod.block.ModBlocks;
 import net.justus.pbossmod.item.ModItems;
+import net.justus.pbossmod.util.ModTags;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Items;
@@ -10,6 +11,7 @@ import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 
 import java.util.List;
@@ -41,6 +43,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('N', ModItems.Ruby_Nugget.get())
                 .unlockedBy(getHasName(ModItems.Ruby_Nugget.get()), has(ModItems.Ruby_Nugget.get()))
                 .save(pWriter, "pbossmod:ruby_from_nuggets");
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ALTAR_BLOCK.get())
+                .pattern("CCC")
+                .pattern("CHC")
+                .pattern("CCC")
+                .define('H', ModItems.Ruby.get())
+                .define('C', Blocks.BLACKSTONE)
+                .unlockedBy(getHasName(ModItems.Ruby.get()), has(ModItems.Ruby.get()))
+                .save(pWriter, "pbossmod:altar_from_ruby");
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.Ruby.get(), 9)
                 .requires(ModBlocks.RUBY_BLOCK.get())
